@@ -24,7 +24,7 @@ export default function Calculator() {
         type="text"
         value={inp}
         onChange={(e) => {
-          e.target.value;
+          e.target.value();
         }}
       />
       <div>{ans ? ans : false}</div>
